@@ -13,4 +13,11 @@ x_list = [a for a in range(mes_len_sa)]
 plt.plot(x_list, np.sin(x_list), marker="o")
 plt.show()
 
+#仮の位相差(0度〜180度でランダム)
+
+#同調のズレ
+sync_freq_diff_hz = 0.001
+
+#
+
 
